@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center; 
 }
 
 .App-logo {
@@ -14,14 +14,34 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  border-bottom: 2px solid blue;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 250px;
+}
+
+.chips {
+  display: flex;
+  gap: 5px;
+}
+
+.chips .chip {
+  display: inline-block;
+  font-size: 13px;
+  background: red;
+  color: white;
+  border-radius: 12px;
+  padding: 2vmin;
+  margin-bottom: 2px;
+}
+
+.textarea {
+  border: 0;
+  outline: none;
+  font-size: 13px;
+  margin-left: 5px;
 }
 
 .App-link {
